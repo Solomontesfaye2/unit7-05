@@ -15,4 +15,3 @@ function enter () {
    document.getElementById('enter')
    alert('Time for work')
  }
-}
