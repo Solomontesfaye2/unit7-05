@@ -9,7 +9,5 @@ function enter () {
   { alert('Time for school!')
    day = document.getElementById('input2')
 .value
-  } if (day === 'Saturday'|| day === 'Sunday') { alert('Time to relax')
-  ('age').value
  }
 }
