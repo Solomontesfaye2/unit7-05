@@ -5,14 +5,17 @@ document.getElementById('enter').addEventListener('click', enter)
 
 function enter () {
   day = document.getElementById('input').value
-  if (day === 'Monday' || day === 'Thusday'|| day === 'Wensday' || day === 'Thursday' || day === 'Friday')
-  { alert('Time for school!')
-   day = document.getElementById('input2')
+  if (day === 'Monday' || day === 'Thusday' || day === 'Wensday' || day === 'Thursday' || day === 'Friday')
+  { 
+     alert('Time for school!')
+        day = document.getElementById('input2')
 .value
-  } if (day === 'Saturday'|| day === 'Sunday') { alert('Time to relax')
-  ('age').value }
+  } 
+  if (day === 'Saturday' || day === 'Sunday') { innerHTML('Time to relax')
+   ('age').value }
   age = document.getElementById('input2').value
- if (age >= 18 && day !== 'Sunday' && day !== 'Saturday')
-   document.getElementById('enter')
-   alert('Time for work')
+  }
+  if (age >= 18 && day !== 'Sunday' && day !== 'Saturday') {
+    document.getElementById('enter')
+  alert('Time for work')
 }
